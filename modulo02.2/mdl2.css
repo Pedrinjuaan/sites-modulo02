@@ -1,0 +1,87 @@
+
+:root {
+    --cor0: #6BB5FF;
+    --cor1: #1F8FFF;
+    --cor2: #1872CC;
+    --cor3: #1C2859;
+    --cor4: #10288C;
+}
+header  {
+    background-image: linear-gradient(to bottom,var(--cor4),var(--cor1));
+    min-height: 100%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 1px 1px 9px black;
+}
+header h1 {
+    text-shadow: 0px 0px 7px black;
+    text-align: center; 
+}
+header > p {
+    text-align: center;
+}
+main p {
+    text-align: justify;
+    padding: 0px 10px;
+    
+}
+body {
+    background-color: #6BB5FF;
+}
+main {
+    padding-top: 15px;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    max-width: 1000px;
+}
+main h1,h2 {
+    color: #10288C;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+    text-align: center;
+    background-color: #1C2859;
+    color: #6BB5FF;
+}
+img {
+    margin: auto;
+}
+nav {
+    font-size: 20px;
+    
+    padding: 10px 4px 5px 4px;
+}
+nav > a {
+    color: white;
+    font-weight: bold;
+   text-decoration: none;
+
+}
+nav > a:hover {
+    background-color: #1C2859;
+    color: #f0f8ff;
+}
+main a {
+    background-color: #1C2859;
+    color: #f0f8ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.imagem {
+  width: 300px;
+  height: 300px;
+}
+#img1 {
+    height: 300px;
+    width: 800px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor00: #044B05;
+    --cor01: #EBCF0D;
+    --cor02: #A11F01;
+}
+header {
+    padding-top: 30px;
+    text-align: center;
+    height: 140px;
+    background-image: linear-gradient(to right, #044B05,#A11F01,#EBCF0D);
+    box-shadow: 1px 1px 7px black;
+    font-size: 36px;
+}
+body {
+    background-color: #1f4720;
+}
+main {
+    margin: auto;
+    background-color: rgba(248, 229, 200, 0.993);
+    max-width: 900px;
+}
+main h2 {
+    color: #044B05;
+}
+main h1 {
+    color: #A11F01;
+}
+main p {
+    color: #645700;
+    text-indent: 30px;
+}
+ul {
+    padding-left: 25px;
+}
+article {
+    text-indent: 30px;
+}

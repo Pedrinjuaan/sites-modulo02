@@ -1,0 +1,58 @@
+:root {
+    --cor00: #011C6B;
+    --cor01: #011142;
+    --cor02: #01258F;
+    --cor03: #023BE6;
+    --cor04: #0231BD;
+    --cor05: #4A2718;
+    --cor06: #592219;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: linear-gradient(to right, #011142,#023BE6);
+    height: 140px;
+    font-weight: bold;
+    box-shadow: 2px 2px 7px black;
+}
+header > h1{
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+}
+header p {
+     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav {
+    padding: 10px;
+    
+}
+header a {
+    text-decoration: none;
+    color: #023BE6;
+}
+a:hover {
+    background-color: #000000;
+    color: #023BE6;
+}
+main {
+    margin: auto;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+body {
+    background-color: #011C6B;
+}
+img {
+    width: 500px;
+    height: 300px;
+    display: block;
+    display: inline-block;
+}
